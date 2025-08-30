@@ -21,8 +21,11 @@ The script creates a "genesis block" (the first block) and then adds a few subse
 
 The output in the terminal will show the details of each block as it's added to the simulated chain, along with a final check of the chain's integrity.
 
+## PROJECT REPORT
+
+[Blockchain Project Report.pdf](https://github.com/user-attachments/files/22059397/Blockchain.Project.Report.pdf)
+
+
 ## OUTPUT
 
 <img width="1919" height="1079" alt="OUTPUT" src="https://github.com/user-attachments/assets/0f524589-9ffd-4fb9-8b27-fbaa066d51bc" />
-
-
