@@ -10,27 +10,23 @@ class Block:
         self.hash = self.calculate_hash()
 
     def calculate_hash(self):
-        # Concatenate all block properties to create a unique string
         block_string = str(self.index) + str(self.timestamp) + str(self.data) + str(self.previous_hash)
         return hashlib.sha256(block_string.encode()).hexdigest()
 
 def create_genesis_block():
-    # The first block in the chain (index 0)
     return Block(0, datetime.datetime.now(), "Genesis Block", "0")
 
 def create_new_block(last_block, data):
-    # Create a new block, linking it to the previous one
     this_index = last_block.index + 1
     this_timestamp = datetime.datetime.now()
     this_hash = last_block.hash
     return Block(this_index, this_timestamp, data, this_hash)
 
 if __name__ == "__main__":
-    # 1. Create the blockchain and add the genesis block
+
     blockchain = [create_genesis_block()]
     previous_block = blockchain[0]
 
-    # 2. Add a few more blocks
     num_blocks_to_add = 5
 
     print("--- Building Blockchain ---")
@@ -48,7 +44,6 @@ if __name__ == "__main__":
     print("--- Blockchain Built ---")
     print(f"Total blocks in chain: {len(blockchain)}")
 
-    # 3. Verify chain integrity (optional check)
     print("\n--- Verifying Chain Integrity ---")
     is_valid = True
     for i in range(1, len(blockchain)):
