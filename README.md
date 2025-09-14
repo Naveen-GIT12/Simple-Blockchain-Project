@@ -11,12 +11,6 @@ docs/       -> Documentation/report
 
 ## ⚙️ Setup
 
-### Clone the repo
-```bash
-git clone https://github.com/your-username/Simple-Blockchain-Project.git
-cd Simple-Blockchain-Project
-```
-
 ### Install dependencies
 ```bash
 pip install -r requirements.txt
