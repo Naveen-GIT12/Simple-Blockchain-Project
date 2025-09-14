@@ -10,15 +10,15 @@ This project is designed as an **educational tool** to showcase how blocks, hash
 ```
 Simple-Blockchain-Project/
 │── src/
-│   └── simple_blockchain.py   # Core blockchain + Flask API
+│   └── simple_blockchain.py   
 │── tests/
-│   └── test_blockchain.py     # Unit tests for blockchain integrity
+│   └── test_blockchain.py     
 │── docs/
-│   └── report.md              # Detailed documentation/report
-│── .gitignore                 # Ignore Python cache & env files
-│── requirements.txt           # Project dependencies
-│── Dockerfile                 # Containerized deployment
-│── README.md                  # Project documentation
+│   └── report.md             
+│── .gitignore                 
+│── requirements.txt          
+│── Dockerfile                 
+│── README.md                  
 ```
 
 ---
@@ -116,7 +116,7 @@ Blockchain valid? True
 
 ---
 
-## 🐳 Docker Deployment (Optional)
+## 🐳 Docker Deployment
 Build and run in a container:
 ```bash
 docker build -t blockchain .
