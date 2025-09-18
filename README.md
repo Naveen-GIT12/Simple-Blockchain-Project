@@ -131,7 +131,3 @@ docker run -p 5000:5000 blockchain
 - [Python hashlib module](https://docs.python.org/3/library/hashlib.html)  
 
 ---
-
-## 👨‍💻 Author
-**Naveen**  
-📅 Version 1.0 — September 2025  
