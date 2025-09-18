@@ -25,20 +25,14 @@ Simple-Blockchain-Project/
 
 ## ⚙️ Setup
 
-### 1. Clone the Repository
-```bash
-git clone https://github.com/your-username/Simple-Blockchain-Project.git
-cd Simple-Blockchain-Project
-```
-
-### 2. Create Virtual Environment (Recommended)
+### 1. Create Virtual Environment (Recommended)
 ```bash
 python -m venv venv
 source venv/bin/activate   # Linux/Mac
 venv\Scripts\activate      # Windows
 ```
 
-### 3. Install Dependencies
+### 2. Install Dependencies
 ```bash
 pip install -r requirements.txt
 ```
